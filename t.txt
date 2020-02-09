@@ -1,0 +1,21 @@
+データベースサーバの実行結果
+
+[root@401 ~]# cd /proc
+[root@401 proc]# ps aux | grep mysql
+[root@401 proc]# cd 939/fd
+
+省略
+ lr-x------. 1 mysql mysql 64  2月 9 22:41 9 -> /var/lib/mysql/#rocksdb/000098.sst
+省略
+ 
+ 
+
+www serverの実行結果
+
+
+[root@401 ~]# cd /proc
+[root@401 proc]# ps aux | grep apache
+
+省略
+ apache     851  0.0  0.2 419496 11260 ?        S    22:44   0:00 php-fpm: pool www
+省略
